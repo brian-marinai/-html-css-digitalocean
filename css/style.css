@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+[class*="col-"] {
+  border: solid 1px black;
+  height: 100px;
+}
+
+/* parte header */
+header{
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+header .navbar-default .navbar-nav > li > a {
+  color: hsl(221,93%,16%);
+}
+
+header .navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #0069ff;
+}
+
+header .navbar-default {
+  margin-top: 20px;
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+}
+
+header .navbar-default .navbar-brand{
+  font-size: 27px;
+  color: white;
+}
+
+header .navbar-default .navbar-brand:hover{
+  color: white;
+}
+#logo{
+  height: 30px;
+}
+.btn-default{
+  margin-top: 8px;
+  color: #006aff;
+  border-color: #006aff;
+  background-color: transparent;
+}
+.btn-default:hover{
+  background-color: #006aff;
+  color: white;
+}
+.navbar-default .navbar-toggle{
+  border: none;
+}
+#margine{
+  margin-right: 80px;
+}
+
+#jumbo{
+  padding-top: 100px;
+  background-image: url(../img/bg-home-cta.svg);
+}
+#innovative{
+  background-color: #f3f5f9;
+}
+#designed{
+  background-color: #f3f5f9;
+}
+#service{
+  background-color: #0069ff;
+}
