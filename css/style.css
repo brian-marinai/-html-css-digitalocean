@@ -4,8 +4,11 @@
   box-sizing: border-box;
 }
 [class*="col-"] {
-  border: solid 1px black;
-  height: 100px;
+  /* border: solid 1px black; */
+}
+.titolo{
+  text-align: center;
+  font-size: 36px;
 }
 
 /* parte header */
@@ -43,13 +46,13 @@ header .navbar-default .navbar-brand:hover{
 #logo{
   height: 30px;
 }
-.btn-default{
+header .btn-default{
   margin-top: 8px;
   color: #006aff;
   border-color: #006aff;
   background-color: transparent;
 }
-.btn-default:hover{
+header .btn-default:hover{
   background-color: #006aff;
   color: white;
 }
@@ -59,17 +62,166 @@ header .navbar-default .navbar-brand:hover{
 #margine{
   margin-right: 80px;
 }
+/* parte jumbo */
 
 #jumbo{
   padding-top: 100px;
-  background-image: url(../img/bg-home-cta.svg);
+  background-image: url(../img/jumbo.svg);
 }
+#jumbo p{
+  line-height: 35px;
+  margin-top: 30px;
+  color: white;
+  font-size: 19px;
+}
+#jumbo h1{
+  font-size: 55px;
+  margin-top: 50px;
+  color: white;
+}
+.cubo{
+  margin-left: 5%;
+  width: 90%;
+  height: 430px;
+  border: solid 1px white;
+  border-radius: 1%;
+  background-color: white;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+.cubo h2, h3{
+  text-align: center;
+}
+.cubo h2{
+  margin-top: 50px;
+  color: black;
+}
+.cubo h3{
+  font-size: 35px;
+  color: #0069ff;
+}
+.cubo input{
+  margin-left: 5%;
+  width: 90%;
+  margin-top: 20px;
+}
+main .cubo button{
+  width: 90%;
+  margin-left: 5%;
+  color: white;
+  background-color: #0069ff;
+  margin-top: 10px;
+}
+main .cubo button:last-of-type{
+  margin-bottom: 20px;
+  color: #0069ff;
+  background-color: white;
+  margin-top: 10px;
+}
+main #jumbo span{
+  margin-left: 10%;
+  font-size: 18px;
+  color: black;
+}
+
+/* parte innovative */
 #innovative{
   background-color: #f3f5f9;
 }
-#designed{
+#innovative p{
+  margin-top: 50px;
+  text-align: center;
+  color: gray;
+  font-size: 18px;
+}
+#innovative a{
+  text-align: center;
+  color: #0069ff;
+}
+#innovative img{
+  height: 90px;
+  margin-top: 20px;
+}
+#innovative .link{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* parte deploy */
+#deploy{
+  background-color: white;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#deploy .titolo{
+  color: #031b4e;
+}
+#deploy p{
+  font-size: 20px;
+  color: #5b6987;
+  text-align: center;
+  line-height: 35px;
+}
+#deploy ul{
+  border-left: solid 1px gray;
+  margin-top: 40px;
+  list-style: none;
+  margin-left: 15%;
+}
+#deploy li{
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+#deploy li a{
+  font-size: 17px;
+  color: rgba(3, 27, 78, 0.6)
+}
+#nestyng p{
+  line-height: 25px;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: left;
+}
+#nestyng img{
+  margin-top: 10px;
+}
+#nestyng h2{
+  color: #031b4e;
+  font-size: 20px;
+}
+
+/* parte depelovers */
+#developers{
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #f3f5f9;
 }
+#developers .titolo{
+  color: #031b4e;
+}
+#developers p{
+  font-size: 20px;
+  color: #5b6987;
+  text-align: center;
+}
+#developers img{
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
 #service{
   background-color: #0069ff;
 }
